@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #002a4e;
+    padding: 1em 0 3em 0;
+}
+
+#header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#intro {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#images {
+    display: flex;
+    align-content: space-evenly;
+}
+
+#images img {
+    margin: 0 auto;
+}
+
+a:hover {
+    color: black;
+    font-size: 22px;
+}
+
+a {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.img {
+    width: 20em;
+    height: 20em;
+}
