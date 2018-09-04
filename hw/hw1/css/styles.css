@@ -1,15 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+}
+
+header {
+    background-color: Red;
+}
+
 h1 {
+    width: 1000px;
+    margin: 0 auto;
     font-family: 'Comfortaa', cursive;
     font-size: 3em;
+    color:white;
+    padding: .5em 0 1.5em 0;
 }
 
 nav {
-    float: right;
+    padding: 1em 0 5em 0;
 }
+
 nav a {
-    padding: 10px;
-    padding-bottom: 4px;
-    font-size:1.3em;
+    margin-right: 1em;
+    font-size:1.4em;
     text-decoration: none;
     color:red;
     text-transform: uppercase;
@@ -18,8 +37,48 @@ nav a {
 
 nav a:hover {
     color:black;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+figure {
+    float: left;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.favorite {
+    font-weight: bold;
+}
+
+#adcc {
+    float: left;
+    padding-right: 10px;
+}
+
+#tools {
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em 0 2em 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }

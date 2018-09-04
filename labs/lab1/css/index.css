@@ -37,8 +37,9 @@ nav a {
         text-transform: uppercase;
         font-family: 'Quicksand', sans-serif;
 }
-nav a:active #current {
-    background-color: yellow;
+nav a:active, #current {
+    color:orange;
+    font-weight: bold;
 }
 nav a:hover {
         border-bottom: 2px orange solid;
