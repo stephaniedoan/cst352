@@ -6,7 +6,6 @@
 #container {
     width: 1000px;
     margin: 0 auto;
-    height: auto;
 }
 
 header {
@@ -48,8 +47,14 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#titles {
+    font-size: 3em;
+    padding-bottom: .5em;
+}
+
 figure {
     float: left;
+    padding-right: 10px;
 }
 
 #main {
@@ -63,13 +68,18 @@ figure {
     font-weight: bold;
 }
 
+#source {
+    font-size: 1.2em;
+    color: black;
+}
+
+#source:hover {
+    color:red;
+}
+
 #adcc {
     float: left;
     padding-right: 10px;
-}
-
-#tools {
-    
 }
 
 footer {
