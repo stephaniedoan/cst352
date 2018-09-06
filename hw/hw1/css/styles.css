@@ -47,6 +47,30 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+form {
+    padding: 1em 0 1em 0;
+}
+
+.form-title {
+    color: red;
+    font-size: 1.2em;
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: .5em;
+}
+
+button {
+    padding: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: black;
+}
+
 #titles {
     font-size: 3em;
     padding-bottom: .5em;
@@ -87,7 +111,6 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5em 0 1.5em 0;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;

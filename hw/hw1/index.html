@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Adobe Creative Cloud</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto+Condensed" rel="stylesheet">
@@ -34,14 +35,27 @@
                 <p class="favorite">Some of a favorite programs that come with the Adobe Creative Cloud are Adobe Illustrator, Photoshop, and InDesign.</p>
                 <a href="https://www.adobe.com/creativecloud.html?promoid=NGWGRLB2&mv=other" id="source">Source</a>
             </div>
-            
+            <div id="form">
+                <form>
+                    <div class="form-title">
+                        <p>What is your favorite design program?</p>
+                    </div>
+
+                    <input type="radio" name="program" value="male"> Adobe Illustrator<br />
+                    <input type="radio" name="program" value="female"> Adobe Photoshop<br />
+                    <input type="radio" name="program" value="other"> Adobe InDesign
+
+                </form>
+                <button type="button" onclick="alert('Thanks!')">Submit</button>
+            </div>
         </div>
     </div>
-    <br />
+    <br /><br />
+
     <footer>
         <p>CST 352. 2018 &copy; Doan</p>
-        <strong>Disclaimer:</strong> <br /> 
-       <p>It is used for academic purposes only.</p>
+        <strong>Disclaimer:</strong> <br />
+        <p>It is used for academic purposes only.</p>
     </footer>
 </body>
 
