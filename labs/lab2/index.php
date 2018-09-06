@@ -7,7 +7,7 @@
         <?php
         $symbol = "grapes";
         
-        echo "<img src='img/$symbol.png' alt='Seven' title='Seven' />";
+        echo "<img src='img/$symbol.png' alt='$symbol' title='$symbol' />";
         
         ?>
         
