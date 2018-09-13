@@ -21,18 +21,24 @@
     }
     
     #reel1, #reel2, #reel3 {
-        top:248px;
+        top:240px;
         position:absolute;
     }
     
     #reel1{
-        left:145px;
+        left:140px;
+        width:80px;
+        height:80px;
     }
     #reel2{
-        left:252px;
+        left:245px;
+        width:80px;
+        height:80px;
     }
     #reel3{
-        left:357px;
+        left:350px;        
+        width:80px;
+        height:80px;
     }
     
     input{
