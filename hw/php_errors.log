@@ -1,0 +1,210 @@
+[24-Sep-2018 03:58:04 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/index.php on line 9
+[24-Sep-2018 03:58:17 UTC] PHP Parse error:  syntax error, unexpected ''.$songs[0][0].'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/index.php on line 9
+[24-Sep-2018 04:00:40 UTC] PHP Parse error:  syntax error, unexpected ''.$songs[0][0].'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/index.php on line 9
+[24-Sep-2018 20:26:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 4
+[24-Sep-2018 20:28:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 15
+[24-Sep-2018 20:36:02 UTC] PHP Fatal error:  Call to undefined function displaySong() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 50
+[24-Sep-2018 20:36:02 UTC] PHP Stack trace:
+[24-Sep-2018 20:36:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 21:21:19 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 19
+[24-Sep-2018 21:21:19 UTC] PHP Stack trace:
+[24-Sep-2018 21:21:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 21:21:19 UTC] PHP   2. display_random_song() /home/ubuntu/workspace/cst352/hw/hw2/music.php:13
+[24-Sep-2018 21:21:19 UTC] PHP   3. array_rand() /home/ubuntu/workspace/cst352/hw/hw2/music.php:19
+[24-Sep-2018 21:21:19 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 19
+[24-Sep-2018 21:21:19 UTC] PHP Stack trace:
+[24-Sep-2018 21:21:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 21:21:19 UTC] PHP   2. display_random_song() /home/ubuntu/workspace/cst352/hw/hw2/music.php:58
+[24-Sep-2018 21:21:19 UTC] PHP   3. array_rand() /home/ubuntu/workspace/cst352/hw/hw2/music.php:19
+[24-Sep-2018 21:21:58 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 17
+[24-Sep-2018 21:21:58 UTC] PHP Stack trace:
+[24-Sep-2018 21:21:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 21:21:58 UTC] PHP   2. display_random_song() /home/ubuntu/workspace/cst352/hw/hw2/music.php:56
+[24-Sep-2018 21:21:58 UTC] PHP   3. array_rand() /home/ubuntu/workspace/cst352/hw/hw2/music.php:17
+[24-Sep-2018 21:26:01 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 17
+[24-Sep-2018 21:26:01 UTC] PHP Stack trace:
+[24-Sep-2018 21:26:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 21:26:01 UTC] PHP   2. display_random_song() /home/ubuntu/workspace/cst352/hw/hw2/music.php:56
+[24-Sep-2018 21:26:01 UTC] PHP   3. array_rand() /home/ubuntu/workspace/cst352/hw/hw2/music.php:17
+[24-Sep-2018 21:27:56 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 18
+[24-Sep-2018 21:27:56 UTC] PHP Stack trace:
+[24-Sep-2018 21:27:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 21:27:56 UTC] PHP   2. display_random_song() /home/ubuntu/workspace/cst352/hw/hw2/music.php:56
+[24-Sep-2018 21:28:16 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 18
+[24-Sep-2018 21:28:16 UTC] PHP Stack trace:
+[24-Sep-2018 21:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 21:28:16 UTC] PHP   2. display_random_song() /home/ubuntu/workspace/cst352/hw/hw2/music.php:56
+[24-Sep-2018 21:31:21 UTC] PHP Fatal error:  Call to undefined function display_random_song() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 58
+[24-Sep-2018 21:31:21 UTC] PHP Stack trace:
+[24-Sep-2018 21:31:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 21:42:22 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 54
+[24-Sep-2018 21:55:40 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 16
+[24-Sep-2018 22:47:17 UTC] PHP Fatal error:  Call to undefined function displaySong() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 63
+[24-Sep-2018 22:47:17 UTC] PHP Stack trace:
+[24-Sep-2018 22:47:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 22:47:35 UTC] PHP Fatal error:  Call to undefined function displaySong() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 63
+[24-Sep-2018 22:47:35 UTC] PHP Stack trace:
+[24-Sep-2018 22:47:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 22:47:39 UTC] PHP Fatal error:  Call to undefined function displaySong() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 63
+[24-Sep-2018 22:47:39 UTC] PHP Stack trace:
+[24-Sep-2018 22:47:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 22:47:54 UTC] PHP Fatal error:  Call to undefined function displaySong() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 63
+[24-Sep-2018 22:47:54 UTC] PHP Stack trace:
+[24-Sep-2018 22:47:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 22:49:26 UTC] PHP Fatal error:  Call to undefined function displaySong() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 63
+[24-Sep-2018 22:49:26 UTC] PHP Stack trace:
+[24-Sep-2018 22:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 22:51:57 UTC] PHP Fatal error:  Call to undefined function displaySong() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 63
+[24-Sep-2018 22:51:57 UTC] PHP Stack trace:
+[24-Sep-2018 22:51:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[24-Sep-2018 23:17:12 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 26
+[24-Sep-2018 23:17:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 31
+[24-Sep-2018 23:35:22 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 21
+[24-Sep-2018 23:36:06 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 21
+[24-Sep-2018 23:36:31 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 21
+[24-Sep-2018 23:38:13 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 21
+[25-Sep-2018 00:46:46 UTC] PHP Fatal error:  Call to undefined function formGenres() in /home/ubuntu/workspace/cst352/hw/hw2/index.php on line 26
+[25-Sep-2018 00:46:47 UTC] PHP Stack trace:
+[25-Sep-2018 00:46:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:47:24 UTC] PHP Parse error:  syntax error, unexpected 'music' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 15
+[25-Sep-2018 00:47:24 UTC] PHP Stack trace:
+[25-Sep-2018 00:47:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:48:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 21
+[25-Sep-2018 00:48:49 UTC] PHP Stack trace:
+[25-Sep-2018 00:48:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:48:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 21
+[25-Sep-2018 00:48:54 UTC] PHP Stack trace:
+[25-Sep-2018 00:48:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:49:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 21
+[25-Sep-2018 00:49:10 UTC] PHP Stack trace:
+[25-Sep-2018 00:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:49:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 21
+[25-Sep-2018 00:49:37 UTC] PHP Stack trace:
+[25-Sep-2018 00:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:50:01 UTC] PHP Parse error:  syntax error, unexpected 'music' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 15
+[25-Sep-2018 00:50:01 UTC] PHP Stack trace:
+[25-Sep-2018 00:50:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:50:14 UTC] PHP Parse error:  syntax error, unexpected 'music' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 15
+[25-Sep-2018 00:50:14 UTC] PHP Stack trace:
+[25-Sep-2018 00:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:50:17 UTC] PHP Parse error:  syntax error, unexpected 'music' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 15
+[25-Sep-2018 00:50:17 UTC] PHP Stack trace:
+[25-Sep-2018 00:50:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:56:11 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 33
+[25-Sep-2018 00:56:11 UTC] PHP Stack trace:
+[25-Sep-2018 00:56:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:56:53 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 10
+[25-Sep-2018 00:56:53 UTC] PHP Stack trace:
+[25-Sep-2018 00:56:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:57:22 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 33
+[25-Sep-2018 00:57:22 UTC] PHP Stack trace:
+[25-Sep-2018 00:57:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 00:58:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 8
+[25-Sep-2018 00:58:47 UTC] PHP Stack trace:
+[25-Sep-2018 00:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 01:09:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 24
+[25-Sep-2018 01:14:16 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 24
+[25-Sep-2018 01:15:12 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 24
+[25-Sep-2018 01:15:16 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 24
+[25-Sep-2018 01:43:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 24
+[25-Sep-2018 01:46:28 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 24
+[25-Sep-2018 01:47:36 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 24
+[25-Sep-2018 01:47:36 UTC] PHP Stack trace:
+[25-Sep-2018 01:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 01:58:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 70
+[25-Sep-2018 01:58:57 UTC] PHP Stack trace:
+[25-Sep-2018 01:58:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:09:49 UTC] PHP Parse error:  syntax error, unexpected ']', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 24
+[25-Sep-2018 02:15:40 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL), expecting ']' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 6
+[25-Sep-2018 02:15:40 UTC] PHP Stack trace:
+[25-Sep-2018 02:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:16:50 UTC] PHP Parse error:  syntax error, unexpected '$genre' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 8
+[25-Sep-2018 02:16:50 UTC] PHP Stack trace:
+[25-Sep-2018 02:16:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:17:01 UTC] PHP Parse error:  syntax error, unexpected '$genre' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 8
+[25-Sep-2018 02:17:01 UTC] PHP Stack trace:
+[25-Sep-2018 02:17:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:17:38 UTC] PHP Parse error:  syntax error, unexpected '$genre' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 8
+[25-Sep-2018 02:17:38 UTC] PHP Stack trace:
+[25-Sep-2018 02:17:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:23:14 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting '(' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 8
+[25-Sep-2018 02:23:14 UTC] PHP Stack trace:
+[25-Sep-2018 02:23:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:23:42 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 12
+[25-Sep-2018 02:23:42 UTC] PHP Stack trace:
+[25-Sep-2018 02:23:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:24:51 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 12
+[25-Sep-2018 02:24:51 UTC] PHP Stack trace:
+[25-Sep-2018 02:24:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:25:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 12
+[25-Sep-2018 02:25:53 UTC] PHP Stack trace:
+[25-Sep-2018 02:25:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:26:33 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 12
+[25-Sep-2018 02:26:33 UTC] PHP Stack trace:
+[25-Sep-2018 02:26:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:29:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 26
+[25-Sep-2018 02:29:16 UTC] PHP Stack trace:
+[25-Sep-2018 02:29:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:31:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 41
+[25-Sep-2018 02:31:22 UTC] PHP Stack trace:
+[25-Sep-2018 02:31:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:32:04 UTC] PHP Parse error:  syntax error, unexpected 'songs' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 56
+[25-Sep-2018 02:32:04 UTC] PHP Stack trace:
+[25-Sep-2018 02:32:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:32:10 UTC] PHP Parse error:  syntax error, unexpected 'songs' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 56
+[25-Sep-2018 02:32:10 UTC] PHP Stack trace:
+[25-Sep-2018 02:32:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:32:25 UTC] PHP Parse error:  syntax error, unexpected 'songs' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 56
+[25-Sep-2018 02:32:25 UTC] PHP Stack trace:
+[25-Sep-2018 02:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:32:50 UTC] PHP Parse error:  syntax error, unexpected 'songs' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 56
+[25-Sep-2018 02:32:50 UTC] PHP Stack trace:
+[25-Sep-2018 02:32:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:35:36 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 24
+[25-Sep-2018 02:35:36 UTC] PHP Stack trace:
+[25-Sep-2018 02:35:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:36:30 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 24
+[25-Sep-2018 02:36:30 UTC] PHP Stack trace:
+[25-Sep-2018 02:36:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:37:49 UTC] PHP Fatal error:  Call to undefined function displayGenre() in /home/ubuntu/workspace/cst352/hw/hw2/music.php on line 23
+[25-Sep-2018 02:37:49 UTC] PHP Stack trace:
+[25-Sep-2018 02:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 02:46:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 40
+[25-Sep-2018 02:46:27 UTC] PHP Stack trace:
+[25-Sep-2018 02:46:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:46:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 40
+[25-Sep-2018 02:46:40 UTC] PHP Stack trace:
+[25-Sep-2018 02:46:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:47:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 40
+[25-Sep-2018 02:47:04 UTC] PHP Stack trace:
+[25-Sep-2018 02:47:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:47:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 33
+[25-Sep-2018 02:47:34 UTC] PHP Stack trace:
+[25-Sep-2018 02:47:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 02:55:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 57
+[25-Sep-2018 02:55:43 UTC] PHP Stack trace:
+[25-Sep-2018 02:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 03:01:26 UTC] PHP Parse error:  syntax error, unexpected '$_GET' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 9
+[25-Sep-2018 03:01:26 UTC] PHP Stack trace:
+[25-Sep-2018 03:01:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 03:01:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 57
+[25-Sep-2018 03:01:49 UTC] PHP Stack trace:
+[25-Sep-2018 03:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 03:05:24 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 10
+[25-Sep-2018 03:05:24 UTC] PHP Stack trace:
+[25-Sep-2018 03:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 03:12:08 UTC] PHP Parse error:  syntax error, unexpected '$songs' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 45
+[25-Sep-2018 03:12:08 UTC] PHP Stack trace:
+[25-Sep-2018 03:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/music.php:0
+[25-Sep-2018 03:21:58 UTC] PHP Parse error:  syntax error, unexpected 'Bohemian' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 44
+[25-Sep-2018 03:21:58 UTC] PHP Stack trace:
+[25-Sep-2018 03:21:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 03:23:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 32
+[25-Sep-2018 03:23:34 UTC] PHP Stack trace:
+[25-Sep-2018 03:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 03:31:37 UTC] PHP Parse error:  syntax error, unexpected 'genres' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 26
+[25-Sep-2018 03:31:37 UTC] PHP Stack trace:
+[25-Sep-2018 03:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
+[25-Sep-2018 03:35:35 UTC] PHP Fatal error:  Cannot redeclare rock_random_song() (previously declared in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php:39) in /home/ubuntu/workspace/cst352/hw/hw2/inc/functions.php on line 79
+[25-Sep-2018 03:35:35 UTC] PHP Stack trace:
+[25-Sep-2018 03:35:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0

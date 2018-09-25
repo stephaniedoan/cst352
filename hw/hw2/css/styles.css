@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #182952;
+}
+
+#main {
+    background-color: #7045af;
+    width: 80%;
+    height: 30em;
+    margin: 0 auto;
+    font-family: 'Candal', sans-serif;
+    color: white;
+}
+
+header {
+    padding: 1.2em 0 1.5em 0;
+    background-color: #2b3595;
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+}
+
+h1 {
+   font-family: 'Candal', sans-serif;
+   font-size: 2.5em;
+}
+
+body {
+    font-family: 'Jaldi', sans-serif;
+    text-align: center;
+}
+
+#genre {
+    color: yellow;
+}
+
+#genres {
+    font-family: 'Candal', sans-serif;
+    color: white;
+    padding-top: 4em;
+    font-size: 2em;
+}
+
+#genres a {
+    color: white;
+    background-color: #182952;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-size: 2em;
+    
+}
+
+#genres a:hover {
+    background-color: #2b3595;
+}
+
+#song {
+    font-family: 'Candal', sans-serif;
+    font-size: 3em;
+    padding-top: 3em;
+}
+
+#nav {
+    text-align: left;
+    padding-left: 2em;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    
+}
+
+#button {
+    background-color: #182952;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;font-family: 'Jaldi', sans-serif;
+}
+
+footer {
+    background-color: #e14594;
+    width: 80%;
+    padding: 1.5em 0 1.5em 0;
+    margin: 0 auto;
+}
