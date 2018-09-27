@@ -104,6 +104,10 @@
         <h2>
             <?=displayWinner($p1, $p2)?>
         </h2>
-        
+         <footer>
+        <hr> CST 352. 2018 &copy; Doan <br />
+        <strong>Disclaimer:</strong><br /> 
+        It is used for academic purposes only.
+    </footer>
     </body>
 </html>
