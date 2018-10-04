@@ -1,16 +1,28 @@
 <?php
 
-  //print_r($_GET);
+  //print_r($_POST);
   
   $randomBackground = "img/sea.jpg";
   
-   if ( isset($_GET['keyword'])  ) {  //checks whether the form has been submitted
+   if ( isset($_GET['keyword'])  ) {
   
       include 'api/pixabayAPI.php';
       
       $keyword = $_GET['keyword'];
       
-      $imageURLs = getImageURLs($keyword);
+      $layout = "horizontal";
+      if (isset($_GET['layout'])) { 
+        
+         $layout = $_GET['layout'];
+      }
+      
+      if (!empty($_GET['category'])) {
+        
+        $keyword = $_GET['category'];
+        
+      }
+      
+      $imageURLs = getImageURLs($keyword, $layout);
       
       $randomIndex = array_rand($imageURLs);
       
@@ -31,7 +43,7 @@
     <head>
         <title> Lab 4: Image Slider </title>
         <style>
-            
+           
             body {
                 
                 background-image: url(<?=$randomBackground?>);
@@ -45,36 +57,78 @@
                 margin:0 auto;
                 
             }
+            
+            
         </style>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+          <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
 
 
-        <form method="GET">
+        <form method="get">
             
-            <input type="text" name="keyword" size="15" placeholder="Keyword"/>
+            <input type="text" name="keyword" size="15" placeholder="Keyword" value="<?=$_GET["keyword"]?>"/>
+
+          <div id="radio-buttons">  
+            <input type="radio" name="layout" value="horizontal" id="hlayout"
+            
+            <?php
+            
+            if ($_GET['layout'] == "horizontal") {
+              echo " checked ";
+            }
+            
+            ?>
+            >
+                <label for="hlayout"> Horizontal</label><br>
+            <input type="radio" name="layout" value="vertical" id="vlayout" <?=(($_GET['layout'] == "vertical")?"checked":"" )?>>
+                <label for="vlayout"> Vertical</label>
+          </div>
+          
+          <div id="dropdown">
+            <select name="category">
+              <option value="">Select One</option>
+              <option>Mountains</option>
+              <option>Sea</option>
+              <option>Sky</option>
+              <option>Forest</option>
+              <option>Winter</option>
+            </select>    
+          </div>  
+                <br>
             <input type="submit" name="submitBtn" value="Go!" />
         </form>
 
+        <?php 
+        
+        if ( isset($keyword) && !empty($keyword) ) {
+        
+        ?>
+        
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            
+            <?php
+              for ($i=1; $i < 10; $i++) {
+                echo "<li data-target='#carouselExampleIndicators' data-slide-to='$i'></li>";
+              }
+            ?>
+          
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="<?=$imageURLs[0]?>" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="<?=$imageURLs[1]?>" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="<?=$imageURLs[2]?>" alt="Third slide">
-            </div>
+            <?php
+            for ($i=0; $i < 10; $i++) {
+               echo "<div class='carousel-item "; 
+               echo ($i == 0)?" active ":"";
+               echo "'>";
+               echo "<img class=\"d-block w-100\" src=\"".$imageURLs[$i]."\" alt=\"Second slide\">";
+               echo "</div>";
+            }
+            ?>
+         
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -86,7 +140,11 @@
           </a>
         </div>
 
-
+        <?php
+        
+        } //end if statement
+        
+        ?>
 
     
         <h1>You must type a keyword or select a category</h1>
