@@ -1,0 +1,16 @@
+[04-Oct-2018 18:07:58 UTC] PHP Warning:  Missing argument 1 for displayYears(), called in /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php on line 36 and defined in /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php on line 5
+[04-Oct-2018 18:07:58 UTC] PHP Stack trace:
+[04-Oct-2018 18:07:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php:0
+[04-Oct-2018 18:07:58 UTC] PHP   2. displayYears() /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php:36
+[04-Oct-2018 18:07:58 UTC] PHP Warning:  Missing argument 2 for displayYears(), called in /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php on line 36 and defined in /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php on line 5
+[04-Oct-2018 18:07:58 UTC] PHP Stack trace:
+[04-Oct-2018 18:07:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php:0
+[04-Oct-2018 18:07:58 UTC] PHP   2. displayYears() /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php:36
+[04-Oct-2018 18:11:08 UTC] PHP Warning:  Missing argument 1 for displayYears(), called in /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php on line 38 and defined in /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php on line 4
+[04-Oct-2018 18:11:08 UTC] PHP Stack trace:
+[04-Oct-2018 18:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php:0
+[04-Oct-2018 18:11:08 UTC] PHP   2. displayYears() /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php:38
+[04-Oct-2018 18:11:08 UTC] PHP Warning:  Missing argument 2 for displayYears(), called in /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php on line 38 and defined in /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php on line 4
+[04-Oct-2018 18:11:08 UTC] PHP Stack trace:
+[04-Oct-2018 18:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php:0
+[04-Oct-2018 18:11:08 UTC] PHP   2. displayYears() /home/ubuntu/workspace/cst352/practice/zodiac/zodiac.php:38

@@ -1,0 +1,77 @@
+#container {
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #53cde2;
+    width: 50em;
+    margin: 0 auto;
+    padding: 1em 1em 1em 1em;
+}
+
+h1 {
+    margin: 0 auto;
+    color: white;
+    padding: 1em 0 1em 0;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #53cde2;
+}
+
+p {
+    font-weight: bold;
+}
+
+#name {
+    background-color: #d1f4fa;
+    width: 10em;
+    height: 8em;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#age {
+    background-color: #d1f4fa;
+    width: 10em;
+    height: 6em;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#major {
+    background-color: #d1f4fa;
+    width: 10em;
+    height: 12em;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#color {
+    background-color: #d1f4fa;
+    width: 10em;
+    height: 13em;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button {
+    background-color: #005792;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 15px;
+    padding: .5em 1em .5em 1em;
+}
+
+.button:hover {
+    background-color: white;
+    color: #005792;
+}
