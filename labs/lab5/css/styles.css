@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: #393e46;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #fafafa;
+    font-size: 1em;
+}
+
+a:hover {
+    color: #c7eeff;
+    font-weight: bold;
+}
+
+h1 {
+    color: #0077c0;
+}
+
+h2 {
+    color: #c7eeff;
+}
