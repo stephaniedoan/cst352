@@ -2,14 +2,6 @@
 <html>
     <head>
         <title>Admin Login</title>
-        
-        <style>
-            
-            form {
-                background-color: black;
-            }
-            
-        </style>
     </head>
     <body>
         <h1>Admin Login</h1>
