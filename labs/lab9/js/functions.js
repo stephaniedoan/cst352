@@ -34,6 +34,8 @@
                     } else if (guessCount === 7) {
                         lastResult.innerHTML = 'Sorry, you lost!';
                         setGameOver();
+                    } else if (userGuess > 99) {
+                        lastResult.innerHTML = 'Your guess needs to be less than 99!';
                     } else {
                         lastResult.innerHTML = 'Wrong!';
                         lastResult.style.backgroundColor = 'red';
@@ -41,7 +43,7 @@
                             lowOrHi.innerHTML = 'Last guess was too low!';
                         } else if (userGuess > randomNumber) {
                             lowOrHi.innerHTML = 'Last guess was too high!';
-                        }
+                        } 
                     }
 
                     guessCount++;
