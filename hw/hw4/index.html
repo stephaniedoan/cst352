@@ -5,67 +5,130 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <style>
+            .correct {
+                font-family: 'Montserrat', sans-serif;
+                color: #aef4a4;
+            }
+            
+            .wrong {
+                font-family: 'Montserrat', sans-serif;
+                color: red;
+            }
+            
+            img {
+                display:none;
+            }
+        </style>
+        <script>
+        
+           function validateForm() {
+               event.preventDefault();
+               var validationConfirmation = true;
+               var name = document.forms["quizAboutMe"]["yourName"].value;
+               var age = document.forms["quizAboutMe"]["age"].value;
+               var major = document.forms["quizAboutMe"]["major"].value;
+               
+               if (name == "") {
+                   alert("Name must be filled out");
+                   return false;
+               } else {
+                   document.getElementById("greeting").innerHTML = "Hello " + name;
+               };
+               
+               if (age == 22) {
+                  document.getElementById("ageDiv").style.color = "#aef4a4";
+                  document.getElementById("correctAge").innerHTML = "Yes I am 22 years old.";
+               } else {
+                  document.getElementById("ageDiv").style.color = "red";
+                  document.getElementById("wrongAge").innerHTML = "Nope. I am 22 years old.";
+                  
+               }
+               
+               if (major == "Communication Design") {
+                  document.getElementById("majorDiv").style.color = "#aef4a4";
+                  document.getElementById("correctMajor").innerHTML = "Yes I am a Communication Design major.";
+               } else {
+                  document.getElementById("majorDiv").style.color = "red";
+                  document.getElementById("wrongMajor").innerHTML = "Nope. I am a Communication Design major.";
+               }
+                  
+            return validationConfirmation;
+            
+        }   
+        
+        </script>
     </head>
     <body>
         <h1>How Well Do You Know Stephanie?</h1>
         <h2>Take this quiz to find out!</h2>
+        <h3>Correct answers will be in <span class="correct">green</span> and wrong answers will be in <span class="wrong">red</span>.</h3>
         
-        <form>
+        <form name="quizAboutMe" onsubmit="return validateForm()">
             
             What is your name?
-            <input type="text" name="yourName"/>
-            <br><br>
-            
-            How old am I?
-            <select name="age">
-                <option>17</option>
-                <option>18</option>
-                <option>19</option>
-                <option>20</option>
-                <option>21</option>
-                <option>22</option>
-                <option>23</option>
-                <option>24</option>
-                <option>25</option>
-            </select>
-            <br><br>
-            
-            What is my major?
+            <input type="text" id="name" name="yourName"/>
             <br>
-             <input type="radio" name="major" value="cs" id="comSci">
+            <span id="greeting"></span>
+            <br><br>
+            
+            <span id="ageDiv">How old am I?</span>
+            <select id="age" name="age">
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option> 
+                <option value="24">24</option>
+                <option value="25">25</option>
+            </select>
+            <br>
+            <span id="correctAge" class="correct"><img id="correctImg" src="img/correct.png" width="50px" height="50px" /></span>
+            <span id="wrongAge" class="wrong"></span>
+            <br><br>
+            
+            <span id="majorDiv">What is my major?</span>
+            <br>
+             <input type="radio" name="major" value="Computer Science" id="comSci">
                 <label for="comSci"> Computer Science</label><br>
-            <input type="radio" name="major" value="cd" id="comDes">
+            <input type="radio" name="major" value="Communication Design" id="comDes">
                 <label for="comDes"> Communication Design</label> <br>
-            <input type="radio" name="major" value="bus" id="business">
+            <input type="radio" name="major" value="Business" id="business">
                 <label for="business"> Business</label> <br>
-            <input type="radio" name="major" value="mb" id="marine">
+            <input type="radio" name="major" value="Marine Biology" id="marine">
                 <label for="marine"> Marine Biology</label>
+            <br>
+            <span id="correctMajor" class="correct"></span>
+            <span id="wrongMajor" class="wrong"></span>
             <br><br>
                 
             What are my three favorite colors?
             <br>
-            <input type="checkbox" name="pinkColor" value="pink" id="Pink"> 
+            <input type="checkbox" name="color" value="pink" id="Pink"> 
             <label for="Pink"> Pink</label><br>
-            <input type="checkbox" name="blueColor" value="blue" id="Blue"> 
+            <input type="checkbox" name="color" value="blue" id="Blue"> 
             <label for="Blue"> Blue</label><br>
-            <input type="checkbox" name="orangeColor" value="orange" id="Orange"> 
+            <input type="checkbox" name="color" value="orange" id="Orange"> 
             <label for="Orange"> Orange</label><br>
-            <input type="checkbox" name="yellowColor" value="yellow" id="Yellow"> 
+            <input type="checkbox" name="color" value="yellow" id="Yellow"> 
             <label for="Yellow"> Yellow</label><br>
-            <input type="checkbox" name="purpleColor" value="purple" id="Purple"> 
+            <input type="checkbox" name="color" value="purple" id="Purple"> 
             <label for="Purple"> Purple</label><br>
-            <input type="checkbox" name="blackColor" value="black" id="Black"> 
+            <input type="checkbox" name="color" value="black" id="Black"> 
             <label for="Black"> Black</label>
             <br><br>
             
             What is my favorite ice cream flavor?
-            <select name="icecream">
-                <option>Vanilla</option>
-                <option>Chocolate</option>
-                <option>Pistachio</option>
-                <option>Strawberry</option>
-                <option>Coffee</option>
-                <option>Cookies and Cream</option>
+            <select id="flavor" name="icecream">
+                <option value="Vanilla">Vanilla</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Pistachio">Pistachio</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Coffee">Coffee</option>
+                <option value="Cookies and Cream">Cookies and Cream</option>
             </select>
             <br><br>
             
@@ -82,5 +145,6 @@
             
             <input type="submit" value="Submit" class="submitBtn"/>
         </form>
+
     </body>
 </html>

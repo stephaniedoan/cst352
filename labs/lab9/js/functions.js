@@ -45,7 +45,7 @@
                             lowOrHi.innerHTML = 'Last guess was too high!';
                         } 
                     }
-
+                    
                     guessCount++;
                     guessField.value = '';
                     guessField.focus();
