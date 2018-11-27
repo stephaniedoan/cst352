@@ -22,13 +22,17 @@
             }
         </style>
         <script>
-        
+            
+            
            function validateForm() {
                event.preventDefault();
                var validationConfirmation = true;
                var name = document.forms["quizAboutMe"]["yourName"].value;
                var age = document.forms["quizAboutMe"]["age"].value;
                var major = document.forms["quizAboutMe"]["major"].value;
+               var color = $("#color").val();
+               var flavor = $("#flavor").val();
+               var hometown = $("#home").val();
                
                if (name == "") {
                    alert("Name must be filled out");
@@ -40,18 +44,47 @@
                if (age == 22) {
                   document.getElementById("ageDiv").style.color = "#aef4a4";
                   document.getElementById("correctAge").innerHTML = "Yes I am 22 years old.";
+                  document.getElementById("correctImg").style.display = "inline";
                } else {
                   document.getElementById("ageDiv").style.color = "red";
                   document.getElementById("wrongAge").innerHTML = "Nope. I am 22 years old.";
-                  
+                  document.getElementById("wrongImg").style.display = "inline";
                }
                
                if (major == "Communication Design") {
                   document.getElementById("majorDiv").style.color = "#aef4a4";
                   document.getElementById("correctMajor").innerHTML = "Yes I am a Communication Design major.";
+                  document.getElementById("correctImg").style.display = "inline";
                } else {
                   document.getElementById("majorDiv").style.color = "red";
                   document.getElementById("wrongMajor").innerHTML = "Nope. I am a Communication Design major.";
+                  document.getElementById("wrongImg").style.display = "inline";
+               }
+               
+               if (color == "blue", "pink", "black") {
+                   $("#colorDiv").css("color","#aef4a4");
+                   $("#correctColor").html("Yes, my three favorite colors are blue, pink and black.");
+                   $("#correctImg").css("display","inline");
+               } 
+               
+               if (flavor == "Strawberry") {
+                   $("#flavorDiv").css("color","#aef4a4");
+                   $("#correctFlavor").html("Yes, my favorite ice cream flavor is Strawberry.");
+                   $("#correctImg").css("display","inline");
+               } else {
+                   $("#flavorDiv").css("color","red");
+                   $("#wrongFlavor").html("Nope, my favorite ice cream flavor is Strawberry.");
+                   $("#wrongImg").css("display","inline");
+               }
+               
+               if (hometown == "Stockton") {
+                   $("#homeDiv").css("color","#aef4a4");
+                   $("#correctHome").html("Yes, I am from Stockton.");
+                   $("#correctImg").css("display","inline");
+               } else {
+                   $("#homeDiv").css("color","red");
+                   $("#wrongHome").html("Nope, I am from Stockton.");
+                   $("#wrongImg").css("display","inline");
                }
                   
             return validationConfirmation;
@@ -86,8 +119,8 @@
                 <option value="25">25</option>
             </select>
             <br>
-            <span id="correctAge" class="correct"><img id="correctImg" src="img/correct.png" width="50px" height="50px" /></span>
-            <span id="wrongAge" class="wrong"></span>
+            <img id="correctImg" src="img/correct.png" width="50px" height="50px" /><span id="correctAge" class="correct"></span>
+            <img id="wrongImg" src="img/wrong.png" width="50px" height="60px" /><span id="wrongAge" class="wrong"></span>
             <br><br>
             
             <span id="majorDiv">What is my major?</span>
@@ -101,27 +134,30 @@
             <input type="radio" name="major" value="Marine Biology" id="marine">
                 <label for="marine"> Marine Biology</label>
             <br>
-            <span id="correctMajor" class="correct"></span>
-            <span id="wrongMajor" class="wrong"></span>
+            <img id="correctImg" src="img/correct.png" width="50px" height="50px" /> <span id="correctMajor" class="correct"></span>
+            <img id="wrongImg" src="img/wrong.png" width="50px" height="60px" /> <span id="wrongMajor" class="wrong"></span>
             <br><br>
                 
-            What are my three favorite colors?
+            <span id="colorDiv">What are my three favorite colors?</span>
             <br>
-            <input type="checkbox" name="color" value="pink" id="Pink"> 
+            <input type="checkbox" name="pink" value="pink" id="Pink"> 
             <label for="Pink"> Pink</label><br>
-            <input type="checkbox" name="color" value="blue" id="Blue"> 
+            <input type="checkbox" name="blue" value="blue" id="Blue"> 
             <label for="Blue"> Blue</label><br>
-            <input type="checkbox" name="color" value="orange" id="Orange"> 
+            <input type="checkbox" name="orange" value="orange" id="Orange"> 
             <label for="Orange"> Orange</label><br>
-            <input type="checkbox" name="color" value="yellow" id="Yellow"> 
+            <input type="checkbox" name="yellow" value="yellow" id="Yellow"> 
             <label for="Yellow"> Yellow</label><br>
-            <input type="checkbox" name="color" value="purple" id="Purple"> 
+            <input type="checkbox" name="purple" value="purple" id="Purple"> 
             <label for="Purple"> Purple</label><br>
-            <input type="checkbox" name="color" value="black" id="Black"> 
+            <input type="checkbox" name="black" value="black" id="Black"> 
             <label for="Black"> Black</label>
+            <br>
+            <img id="correctImg" src="img/correct.png" width="50px" height="50px" /><span id="correctColor" class="correct"></span>
+            <img id="wrongImg" src="img/wrong.png" width="50px" height="60px" /><span id="wrongColor" class="wrong"></span>
             <br><br>
             
-            What is my favorite ice cream flavor?
+            <span id="flavorDiv">What is my favorite ice cream flavor?</span>
             <select id="flavor" name="icecream">
                 <option value="Vanilla">Vanilla</option>
                 <option value="Chocolate">Chocolate</option>
@@ -130,17 +166,23 @@
                 <option value="Coffee">Coffee</option>
                 <option value="Cookies and Cream">Cookies and Cream</option>
             </select>
+            <br>
+            <img id="correctImg" src="img/correct.png" width="50px" height="50px" /><span id="correctFlavor" class="correct"></span>
+            <img id="wrongImg" src="img/wrong.png" width="50px" height="60px" /><span id="wrongFlavor" class="wrong"></span>
             <br><br>
             
-            Where is my home town?
-            <select name="hometown">
-                <option>LA</option>
-                <option>San Diego</option>
-                <option>Sacramento</option>
-                <option>San Jose</option>
-                <option>Stockton</option>
-                <option>Monterey</option>
+            <span id="homeDiv">Where is my home town?</span>
+            <select id="home" name="hometown">
+                <option value="LA">LA</option>
+                <option value="San Diego">San Diego</option>
+                <option value="Sacramento">Sacramento</option>
+                <option value="San Jose">San Jose</option>
+                <option value="Stockton">Stockton</option>
+                <option value="Monterey">Monterey</option>
             </select>
+            <br>
+            <img id="correctImg" src="img/correct.png" width="50px" height="50px" /><span id="correctHome" class="correct"></span>
+            <img id="wrongImg" src="img/wrong.png" width="50px" height="60px" /><span id="wrongHome" class="wrong"></span>
             <br><br>
             
             <input type="submit" value="Submit" class="submitBtn"/>
