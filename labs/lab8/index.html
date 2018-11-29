@@ -8,6 +8,8 @@
                 color: red;
             }
         </style>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         <script>
         //jquery
@@ -42,18 +44,19 @@
                  // alert($("#state").val());
                 $.ajax({
                         
-                type: "GET",
-                url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
-                dataType: "json",
-                data: { "state":$("#state").val() },
-                success: function(data,status) {
-                    // alert(data[0].county);
-                    $("#county").html("");
-                    
-                    for(var i = 0; i < data.length; i++) {
-                        $("#county").append("<option>"+data[i].county+"</option>");
-                    }
-                },
+                    type: "GET",
+                    url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                    dataType: "json",
+                    data: { "state":$("#state").val() },
+                    success: function(data,status) {
+                        //$("#county").html("<option>"+data[0].county+"</option>");                        
+                        // alert(data[0].county);
+                        $("#county").html("");
+                        for(var i=0; i<data.length; i++){
+                         $("#county").append("<option>"+data[i].county+"</option>");    
+                            
+                        }
+                    },
                 complete: function(data,status) { //optional, used for debugging purposes
                     //alert(status);
                     }
@@ -122,7 +125,7 @@
     </head>
 
     <body>
-    
+    <div id="container">
        <h1> Sign Up Form </h1>
     
         <form onsubmit="return validateForm()" action="signup.html">
@@ -155,10 +158,10 @@
                 Password: <input id="password" type="password"> <span id="passwordError" class="error"></span> <br>
                 
                 Type Password Again: <input id="passType" type="password"> <span id="retypedError" class="error"></span> <br>
-                
-                <input type="submit" value="Sign up!">
+                <br>
+                <input type="submit" value="Sign up!" class="btn btn-primary">
             </fieldset>
         </form>
-    
+    </div>
     </body>
 </html>
