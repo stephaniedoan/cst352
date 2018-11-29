@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://unpkg.com/blaze/dist/blaze.min.css" rel="stylesheet" type="text/css" />
+<link href="https://unpkg.com/blaze/dist/blaze.colors.min.css" rel="stylesheet" type="text/css" />
+  <title>Javascript and JQuery Challenge</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    
+    table{
+      margin: 0 auto;
+    }
+    
+    table, th, tr, td {
+      padding: 5px;
+      border: 1px solid black;
+    }
+  </style>
+  
+  <script>
+    
+    $(document).ready( function(){
+      $("#qty").change(function(){
+        $("#item1Total").html("$" + $("#qty").val() * 30);
+      });
+      $("#qty2").change(function(){
+        $("#item2Total").html("$" + $("#qty2").val() * 20);
+      });
+      $("input[name=shipping]:checked").click( function(){
+        var shipCost = $("input[name=shipping]:checked").val();
+        
+        $("#shippingTotal").html(shipCost);
+        
+      });
+      
+    })
+    
+  </script>
+  
+</head>
+<body>
+  
+<div class="jumbotron"> 
+  <h1>Holiday Shopping</h1>
+</div>
+  
+  <h2>Cart</h2>
+  
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Unit Price</th> 
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>Fruit Cake</td>
+          <td>$30</td> 
+          <td><input id="qty" type="number" value="1"></td>
+          <td><span id="item1Total"></span></td>
+        </tr>
+        <tr>
+          <td>Pinata (Medium size)</td>
+          <td>$20</td> 
+          <td><input type="number" id="qty2" value="2"></td>
+          <td><span id="item2Total"></span></td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td><span id="shippingTotal"></span></td> 
+          <td></td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td>Subtotal</td>
+          <td></td> 
+          <td></td>
+          <td>$80</td>
+        </tr>
+        <tr>
+          <td>Tax (10%)</td>
+          <td></td> 
+          <td></td>
+          <td>$8</td>
+        </tr>
+         <tr>
+          <td>Total</td>
+          <td></td> 
+          <td></td>
+          <td>$88</td>
+        </tr>
+  </table>
+  
+  <h2>Shipping & Handling</h2>
+    
+    <input type="radio" name="shipping" value="15"> Next-Day Delivery: $15.00
+    <br>
+    <input type="radio" name="shipping" value="10"> Three-Day Delivery: $10.00
+    <br>
+    <input type="radio" name="shipping" value="5"> Regular Shipping (5-8 Days): $5.00
+    <br><br>
+  
+    <input type="button" value="Recalculate Total" id="recalcBtn">
+    <br><br>
+  
+    <input type="checkbox" name="check" value="accept" id="acceptTerms">
+      <label for="acceptTerms">I accept the terms of this purchase.</label>
+  
+  
+</body>
+</html>

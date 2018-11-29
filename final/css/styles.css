@@ -1,0 +1,39 @@
+#container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.container-b {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    height: 200%;
+    padding-bottom: 8em;
+    border-radius: 25px;
+    padding-top: 2em;
+}
+
+#a {
+    /*background-color: red;*/
+    margin-right: 10px;
+    width: 40%;
+}
+
+#b {
+    margin-right: 10px;
+    width: 40%;
+}
+
+#c {
+    width: 40%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: inline;
+}
+
