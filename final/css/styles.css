@@ -1,4 +1,4 @@
-body {    
+/**body {    
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -33,7 +33,7 @@ h4 {
 }
 
 #a {
-    /*background-color: red;*/
+    /*background-color: red;
     margin-right: 10px;
     width: 40%;
 }
@@ -71,5 +71,9 @@ form {
 input{
     padding-left: 1em; 
     border-radius: 20px;
+}*/
+.custom-select{
+    width: 30%;
 }
+
 

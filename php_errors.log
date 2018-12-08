@@ -17,3 +17,1168 @@
 [18-Sep-2018 18:07:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/arrays.php:0
 [18-Sep-2018 18:07:22 UTC] PHP   2. display_random_element() /home/ubuntu/workspace/cst352/practice/arrays.php:33
 [18-Sep-2018 18:07:22 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst352/practice/arrays.php:42
+[04-Dec-2018 23:50:28 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[04-Dec-2018 23:50:28 UTC] PHP Stack trace:
+[04-Dec-2018 23:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[04-Dec-2018 23:50:28 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[04-Dec-2018 23:50:28 UTC] PHP Stack trace:
+[04-Dec-2018 23:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[04-Dec-2018 23:50:28 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[04-Dec-2018 23:50:28 UTC] PHP Stack trace:
+[04-Dec-2018 23:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:06:49 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[05-Dec-2018 00:06:49 UTC] PHP Stack trace:
+[05-Dec-2018 00:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:06:49 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[05-Dec-2018 00:06:49 UTC] PHP Stack trace:
+[05-Dec-2018 00:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:06:49 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[05-Dec-2018 00:06:49 UTC] PHP Stack trace:
+[05-Dec-2018 00:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:07:22 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[05-Dec-2018 00:07:22 UTC] PHP Stack trace:
+[05-Dec-2018 00:07:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:07:22 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[05-Dec-2018 00:07:22 UTC] PHP Stack trace:
+[05-Dec-2018 00:07:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:07:22 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[05-Dec-2018 00:07:22 UTC] PHP Stack trace:
+[05-Dec-2018 00:07:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:07:37 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[05-Dec-2018 00:07:37 UTC] PHP Stack trace:
+[05-Dec-2018 00:07:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:07:37 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[05-Dec-2018 00:07:37 UTC] PHP Stack trace:
+[05-Dec-2018 00:07:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:07:37 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[05-Dec-2018 00:07:37 UTC] PHP Stack trace:
+[05-Dec-2018 00:07:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:33:02 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[05-Dec-2018 00:33:02 UTC] PHP Stack trace:
+[05-Dec-2018 00:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:33:02 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[05-Dec-2018 00:33:02 UTC] PHP Stack trace:
+[05-Dec-2018 00:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[05-Dec-2018 00:33:02 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[05-Dec-2018 00:33:02 UTC] PHP Stack trace:
+[05-Dec-2018 00:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 06:47:19 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 2
+[06-Dec-2018 06:47:19 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:19 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 2
+[06-Dec-2018 06:47:19 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:19 UTC] PHP Warning:  include(../newSQLconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[06-Dec-2018 06:47:19 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:19 UTC] PHP Warning:  include(): Failed opening '../newSQLconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[06-Dec-2018 06:47:19 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:19 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 5
+[06-Dec-2018 06:47:19 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:23 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 2
+[06-Dec-2018 06:47:23 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:23 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 2
+[06-Dec-2018 06:47:23 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:23 UTC] PHP Warning:  include(../newSQLconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[06-Dec-2018 06:47:23 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:23 UTC] PHP Warning:  include(): Failed opening '../newSQLconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[06-Dec-2018 06:47:23 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 06:47:23 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 5
+[06-Dec-2018 06:47:23 UTC] PHP Stack trace:
+[06-Dec-2018 06:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:11:35 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:11:35 UTC] PHP Stack trace:
+[06-Dec-2018 07:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:11:35 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:11:35 UTC] PHP Stack trace:
+[06-Dec-2018 07:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:11:35 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 5
+[06-Dec-2018 07:11:35 UTC] PHP Stack trace:
+[06-Dec-2018 07:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:09 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:12:09 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:09 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:12:09 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:09 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 5
+[06-Dec-2018 07:12:09 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:17 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:12:17 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:17 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:12:17 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:17 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 5
+[06-Dec-2018 07:12:17 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:30 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:12:30 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:30 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:12:30 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:12:30 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 5
+[06-Dec-2018 07:12:30 UTC] PHP Stack trace:
+[06-Dec-2018 07:12:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:13:27 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:13:27 UTC] PHP Stack trace:
+[06-Dec-2018 07:13:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:13:27 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 4
+[06-Dec-2018 07:13:27 UTC] PHP Stack trace:
+[06-Dec-2018 07:13:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 07:13:27 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 5
+[06-Dec-2018 07:13:27 UTC] PHP Stack trace:
+[06-Dec-2018 07:13:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[06-Dec-2018 23:23:16 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[06-Dec-2018 23:23:16 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 23:23:16 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[06-Dec-2018 23:23:16 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 23:23:16 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[06-Dec-2018 23:23:16 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 23:25:29 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[06-Dec-2018 23:25:29 UTC] PHP Stack trace:
+[06-Dec-2018 23:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 23:25:29 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[06-Dec-2018 23:25:29 UTC] PHP Stack trace:
+[06-Dec-2018 23:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 23:25:29 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[06-Dec-2018 23:25:29 UTC] PHP Stack trace:
+[06-Dec-2018 23:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 23:47:03 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[06-Dec-2018 23:47:03 UTC] PHP Stack trace:
+[06-Dec-2018 23:47:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 23:47:03 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[06-Dec-2018 23:47:03 UTC] PHP Stack trace:
+[06-Dec-2018 23:47:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[06-Dec-2018 23:47:03 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[06-Dec-2018 23:47:03 UTC] PHP Stack trace:
+[06-Dec-2018 23:47:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:05:25 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:05:25 UTC] PHP Stack trace:
+[07-Dec-2018 00:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:05:25 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:05:25 UTC] PHP Stack trace:
+[07-Dec-2018 00:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:05:25 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[07-Dec-2018 00:05:25 UTC] PHP Stack trace:
+[07-Dec-2018 00:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:09:26 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 11
+[07-Dec-2018 00:09:26 UTC] PHP Stack trace:
+[07-Dec-2018 00:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:09:26 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 11
+[07-Dec-2018 00:09:26 UTC] PHP Stack trace:
+[07-Dec-2018 00:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:09:26 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 12
+[07-Dec-2018 00:09:26 UTC] PHP Stack trace:
+[07-Dec-2018 00:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:09:36 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:09:36 UTC] PHP Stack trace:
+[07-Dec-2018 00:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:09:36 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:09:36 UTC] PHP Stack trace:
+[07-Dec-2018 00:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:09:36 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[07-Dec-2018 00:09:36 UTC] PHP Stack trace:
+[07-Dec-2018 00:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:14:10 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:14:10 UTC] PHP Stack trace:
+[07-Dec-2018 00:14:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:14:10 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:14:10 UTC] PHP Stack trace:
+[07-Dec-2018 00:14:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:14:10 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[07-Dec-2018 00:14:10 UTC] PHP Stack trace:
+[07-Dec-2018 00:14:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:18:59 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 11
+[07-Dec-2018 00:18:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:18:59 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 11
+[07-Dec-2018 00:18:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:18:59 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 12
+[07-Dec-2018 00:18:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:19:59 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 11
+[07-Dec-2018 00:19:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:19:59 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 11
+[07-Dec-2018 00:19:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:19:59 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 12
+[07-Dec-2018 00:19:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/heroInfo.php:0
+[07-Dec-2018 00:19:59 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/admin.php on line 3
+[07-Dec-2018 00:19:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/admin.php:0
+[07-Dec-2018 00:19:59 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/admin.php on line 3
+[07-Dec-2018 00:19:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/admin.php:0
+[07-Dec-2018 00:19:59 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/admin.php on line 4
+[07-Dec-2018 00:19:59 UTC] PHP Stack trace:
+[07-Dec-2018 00:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/admin.php:0
+[07-Dec-2018 00:24:04 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:24:04 UTC] PHP Stack trace:
+[07-Dec-2018 00:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:24:04 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:24:04 UTC] PHP Stack trace:
+[07-Dec-2018 00:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:24:04 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[07-Dec-2018 00:24:04 UTC] PHP Stack trace:
+[07-Dec-2018 00:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:25:28 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:25:28 UTC] PHP Stack trace:
+[07-Dec-2018 00:25:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:25:28 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 6
+[07-Dec-2018 00:25:28 UTC] PHP Stack trace:
+[07-Dec-2018 00:25:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:25:28 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/loginProcess.php on line 7
+[07-Dec-2018 00:25:28 UTC] PHP Stack trace:
+[07-Dec-2018 00:25:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/loginProcess.php:0
+[07-Dec-2018 00:45:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/admin.php on line 17
+[07-Dec-2018 00:45:55 UTC] PHP Stack trace:
+[07-Dec-2018 00:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/admin.php:0
+[07-Dec-2018 00:45:55 UTC] PHP   2. displayAllHeroes() /home/ubuntu/workspace/cst352/final/admin.php:70
+[07-Dec-2018 00:48:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/admin.php on line 17
+[07-Dec-2018 00:48:11 UTC] PHP Stack trace:
+[07-Dec-2018 00:48:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/admin.php:0
+[07-Dec-2018 00:48:11 UTC] PHP   2. displayAllHeroes() /home/ubuntu/workspace/cst352/final/admin.php:70
+[07-Dec-2018 00:48:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/admin.php on line 17
+[07-Dec-2018 00:48:40 UTC] PHP Stack trace:
+[07-Dec-2018 00:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/admin.php:0
+[07-Dec-2018 00:48:40 UTC] PHP   2. displayAllHeroes() /home/ubuntu/workspace/cst352/final/admin.php:70
+[07-Dec-2018 00:48:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/admin.php on line 17
+[07-Dec-2018 00:48:55 UTC] PHP Stack trace:
+[07-Dec-2018 00:48:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/admin.php:0
+[07-Dec-2018 00:48:55 UTC] PHP   2. displayAllHeroes() /home/ubuntu/workspace/cst352/final/admin.php:70
+[07-Dec-2018 01:46:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gender' in 'field list'' in /home/ubuntu/workspace/cst352/final/addHero.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/addHero.php(39): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/addHero.php on line 39
+[07-Dec-2018 01:48:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fullName' cannot be null' in /home/ubuntu/workspace/cst352/final/addHero.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/addHero.php(39): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/addHero.php on line 39
+[07-Dec-2018 01:48:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fullName' cannot be null' in /home/ubuntu/workspace/cst352/final/addHero.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/addHero.php(39): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/addHero.php on line 39
+[07-Dec-2018 01:50:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fullName' cannot be null' in /home/ubuntu/workspace/cst352/final/addHero.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/addHero.php(39): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/addHero.php on line 39
+[07-Dec-2018 01:53:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null' in /home/ubuntu/workspace/cst352/final/addHero.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/addHero.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/addHero.php on line 40
+[07-Dec-2018 01:57:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null' in /home/ubuntu/workspace/cst352/final/addHero.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/addHero.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/addHero.php on line 40
+[07-Dec-2018 01:57:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null' in /home/ubuntu/workspace/cst352/final/addHero.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/addHero.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/addHero.php on line 40
+[07-Dec-2018 02:10:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hero_id = 2' at line 9' in /home/ubuntu/workspace/cst352/final/updateHero.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/updateHero.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/updateHero.php on line 48
+[07-Dec-2018 21:00:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/final/search.php on line 215
+[08-Dec-2018 00:56:05 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst352/final/search.php on line 65
+[08-Dec-2018 00:58:22 UTC] PHP Fatal error:  Cannot redeclare displayPowers() (previously declared in /home/ubuntu/workspace/cst352/final/search.php:43) in /home/ubuntu/workspace/cst352/final/search.php on line 80
+[08-Dec-2018 00:59:01 UTC] PHP Fatal error:  Cannot redeclare displayHeroes() (previously declared in /home/ubuntu/workspace/cst352/final/search.php:57) in /home/ubuntu/workspace/cst352/final/inc/heroFound.php on line 3
+[08-Dec-2018 00:59:01 UTC] PHP Stack trace:
+[08-Dec-2018 00:59:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 00:59:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:06:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:06:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:07:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:09:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:12:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:20:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:22:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:22:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:24:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:28:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:30:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:32:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:34:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:34:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:35:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:40:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:42:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:43:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:44:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:45:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(75): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/final/search.php(214): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 75
+[08-Dec-2018 01:51:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:51:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:51:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 01:52:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(74): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(213): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 74
+[08-Dec-2018 02:22:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(88): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(227): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 88
+[08-Dec-2018 02:23:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:82
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(82): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(221): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 82
+[08-Dec-2018 02:25:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:83
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(83): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(222): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 83
+[08-Dec-2018 02:25:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:83
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(83): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(222): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 83
+[08-Dec-2018 02:28:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(224): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:29:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(225): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:30:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(225): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:32:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(225): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:33:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(225): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:33:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(225): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:34:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(225): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:36:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:36:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:39:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:41:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:43:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:44:57 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 2
+[08-Dec-2018 02:44:57 UTC] PHP Stack trace:
+[08-Dec-2018 02:44:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:44:57 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:44:57 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 2
+[08-Dec-2018 02:44:57 UTC] PHP Stack trace:
+[08-Dec-2018 02:44:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:44:57 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:44:57 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 3
+[08-Dec-2018 02:44:57 UTC] PHP Stack trace:
+[08-Dec-2018 02:44:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:44:57 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:45:14 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 2
+[08-Dec-2018 02:45:14 UTC] PHP Stack trace:
+[08-Dec-2018 02:45:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:45:14 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:45:14 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 2
+[08-Dec-2018 02:45:14 UTC] PHP Stack trace:
+[08-Dec-2018 02:45:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:45:14 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:45:14 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 3
+[08-Dec-2018 02:45:14 UTC] PHP Stack trace:
+[08-Dec-2018 02:45:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:45:14 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:45:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:46:10 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 2
+[08-Dec-2018 02:46:10 UTC] PHP Stack trace:
+[08-Dec-2018 02:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:46:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:46:10 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 2
+[08-Dec-2018 02:46:10 UTC] PHP Stack trace:
+[08-Dec-2018 02:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:46:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:46:10 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 3
+[08-Dec-2018 02:46:10 UTC] PHP Stack trace:
+[08-Dec-2018 02:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 02:46:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/final/search.php:2
+[08-Dec-2018 02:46:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:47:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:47:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:47:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:47:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:47:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:47:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:47:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:51:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 02:56:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:01:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:01:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:04:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:04:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:04:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:04:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:04:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:04:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(205): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:06:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:06:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:07:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:08:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:08:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:11:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:17:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:22:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:22:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:22:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:26:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:29:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:29:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:29:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:29:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:29:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:29:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:29:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:30:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:30:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:33:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:35:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:35:55 UTC] PHP Fatal error:  Call to undefined function displayHeroes() in /home/ubuntu/workspace/cst352/final/search.php on line 206
+[08-Dec-2018 03:35:55 UTC] PHP Stack trace:
+[08-Dec-2018 03:35:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 03:37:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(86): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(207): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 86
+[08-Dec-2018 03:38:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(87): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(208): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 87
+[08-Dec-2018 03:39:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(87): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(208): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 87
+[08-Dec-2018 03:39:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(87): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(208): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 87
+[08-Dec-2018 03:40:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(87): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(208): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 87
+[08-Dec-2018 03:41:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 03:43:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(90): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/final/search.php(211): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 90
+[08-Dec-2018 03:43:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(90): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/final/search.php(211): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 90
+[08-Dec-2018 03:43:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(90): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/final/search.php(211): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 90
+[08-Dec-2018 03:43:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(90): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/final/search.php(211): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 90
+[08-Dec-2018 03:43:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(90): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/final/search.php(211): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 90
+[08-Dec-2018 03:43:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst352/final/search.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst352/final/search.php(206): displayHeroes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 04:03:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst352/final/search.php on line 72
+[08-Dec-2018 04:14:14 UTC] PHP Parse error:  syntax error, unexpected '$heroes' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst352/final/search.php on line 81
+[08-Dec-2018 04:14:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gender LIKE 'M%'' at line 1' in /home/ubuntu/workspace/cst352/final/search.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst352/final/search.php(237): test()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 77
+[08-Dec-2018 04:22:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gender LIKE 'F%'' at line 1' in /home/ubuntu/workspace/cst352/final/search.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst352/final/search.php(237): test()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 77
+[08-Dec-2018 04:23:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gender LIKE 'F%'' at line 1' in /home/ubuntu/workspace/cst352/final/search.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst352/final/search.php(237): test()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 77
+[08-Dec-2018 04:23:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gender LIKE 'F%'' at line 1' in /home/ubuntu/workspace/cst352/final/search.php:78
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(78): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst352/final/search.php(238): test()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 78
+[08-Dec-2018 04:24:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gender LIKE 'F%'' at line 1' in /home/ubuntu/workspace/cst352/final/search.php:78
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/search.php(78): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst352/final/search.php(238): test()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/search.php on line 78
+[08-Dec-2018 04:27:15 UTC] PHP Parse error:  syntax error, unexpected '"<br/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/final/search.php on line 81
+[08-Dec-2018 04:27:26 UTC] PHP Parse error:  syntax error, unexpected '"<br/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/final/search.php on line 81
+[08-Dec-2018 04:50:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 246
+[08-Dec-2018 04:50:37 UTC] PHP Stack trace:
+[08-Dec-2018 04:50:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:53:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:53:13 UTC] PHP Stack trace:
+[08-Dec-2018 04:53:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:55:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:55:57 UTC] PHP Stack trace:
+[08-Dec-2018 04:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:55:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:55:59 UTC] PHP Stack trace:
+[08-Dec-2018 04:55:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:56:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:56:02 UTC] PHP Stack trace:
+[08-Dec-2018 04:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:56:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:56:10 UTC] PHP Stack trace:
+[08-Dec-2018 04:56:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:56:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:56:48 UTC] PHP Stack trace:
+[08-Dec-2018 04:56:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:56:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:56:51 UTC] PHP Stack trace:
+[08-Dec-2018 04:56:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:58:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:58:31 UTC] PHP Stack trace:
+[08-Dec-2018 04:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 04:58:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 04:58:34 UTC] PHP Stack trace:
+[08-Dec-2018 04:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:00:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 05:00:54 UTC] PHP Stack trace:
+[08-Dec-2018 05:00:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:01:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 247
+[08-Dec-2018 05:01:00 UTC] PHP Stack trace:
+[08-Dec-2018 05:01:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:02:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 208
+[08-Dec-2018 05:02:23 UTC] PHP Stack trace:
+[08-Dec-2018 05:02:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:02:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 208
+[08-Dec-2018 05:02:32 UTC] PHP Stack trace:
+[08-Dec-2018 05:02:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:02:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 210
+[08-Dec-2018 05:02:59 UTC] PHP Stack trace:
+[08-Dec-2018 05:02:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:03:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 210
+[08-Dec-2018 05:03:01 UTC] PHP Stack trace:
+[08-Dec-2018 05:03:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:04:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 210
+[08-Dec-2018 05:04:01 UTC] PHP Stack trace:
+[08-Dec-2018 05:04:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:04:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 210
+[08-Dec-2018 05:04:13 UTC] PHP Stack trace:
+[08-Dec-2018 05:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:04:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 210
+[08-Dec-2018 05:04:53 UTC] PHP Stack trace:
+[08-Dec-2018 05:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:05:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 210
+[08-Dec-2018 05:05:02 UTC] PHP Stack trace:
+[08-Dec-2018 05:05:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:52:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 244
+[08-Dec-2018 05:52:18 UTC] PHP Stack trace:
+[08-Dec-2018 05:52:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:52:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 244
+[08-Dec-2018 05:52:52 UTC] PHP Stack trace:
+[08-Dec-2018 05:52:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 244
+[08-Dec-2018 05:53:32 UTC] PHP Stack trace:
+[08-Dec-2018 05:53:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:59:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 248
+[08-Dec-2018 05:59:47 UTC] PHP Stack trace:
+[08-Dec-2018 05:59:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 05:59:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst352/final/search.php on line 248
+[08-Dec-2018 05:59:49 UTC] PHP Stack trace:
+[08-Dec-2018 05:59:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[08-Dec-2018 06:06:00 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst352/final/search.php on line 85
+[08-Dec-2018 22:42:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst352/final/heroInfo.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/heroInfo.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/final/heroInfo.php(29): getHeroInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/heroInfo.php on line 20

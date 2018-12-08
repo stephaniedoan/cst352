@@ -13,7 +13,8 @@ $dbConn = getConnection("quotes");
 function getAuthorInfo() {
     global $dbConn;
     
-    $sql = "SELECT * FROM `q_author` WHERE authorId = "  . $_GET['authorId'];
+    $sql = "SELECT * FROM `q_author` 
+            WHERE authorId = "  . $_GET['authorId'];
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
     $record = $stmt->fetch(PDO::FETCH_ASSOC);
