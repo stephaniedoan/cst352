@@ -11,9 +11,9 @@ $dbConn = getConnection("heroes");
           order by name"; 
         
         
-        //$stmt = $dbConn->prepare($sql);  
+        $stmt = $dbConn->prepare($sql);  
         $stmt->execute(array(":hero_id"=>$_GET['hero_id']));
-         $stmt->execute();
+        // $stmt->execute();
         //$record = $stmt->fetch(PDO::FETCH_ASSOC);
         //print_r($record);  
         $heroes = $stmt->fetch(PDO::FETCH_ASSOC); 

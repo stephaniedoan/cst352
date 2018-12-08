@@ -52,3 +52,7 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst352/final/api/heroes.php(26): heroDisp()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 16
+[08-Dec-2018 22:47:42 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/cst352/final/api/heroes.php on line 15
+[08-Dec-2018 22:47:42 UTC] PHP Stack trace:
+[08-Dec-2018 22:47:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/api/heroes.php:0
+[08-Dec-2018 22:47:42 UTC] PHP   2. heroDisp() /home/ubuntu/workspace/cst352/final/api/heroes.php:26
