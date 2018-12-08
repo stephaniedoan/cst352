@@ -83,6 +83,7 @@
          foreach ($heroes as $heroes) {
         echo "Name: ". "<a href='#' class='heroLink' id='". $heroes["hero_id"]. "'>" .$heroes["name"]. "</a><br>";
         echo "Gender: " .$heroes["gender"]. "<br><br>" ;
+        
                 
         
          }//foreach

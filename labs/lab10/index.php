@@ -43,7 +43,7 @@
   </a>
 </div>
 <br>
-<a class="btn btn-outline-success" href="adoptions.php" role="button">Adopt Now!</a>
+<div class="btn"><a class="btn btn-outline-success" href="adoptions.php" role="button">Adopt Now!</a></div>
 
 <br><br>
 <hr>
