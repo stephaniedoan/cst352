@@ -78,5 +78,9 @@ if (isset($_GET['addHeroForm'])) {  //checks whether the form has been submitted
             <input type="submit" value="Add Hero" name="addHeroForm" />
         </form>
         
+        <form action="admin.php">
+                <input type="submit" name="main" value="Back"/>
+        </form>
+        
     </body>
 </html>

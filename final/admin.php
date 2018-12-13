@@ -55,8 +55,10 @@ $heroes = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </script>
     </head>
     <body>
-        <h1>Admin Section</h1>
-        Welcome <?= $_SESSION['adminSesh'] ?>
+        <div class="jumbotron">
+            <h1>Admin Section</h1>
+            <h3>Welcome <?= $_SESSION['adminSesh'] ?></h3>
+        </div>
         <br><br>
         
         <form action="addHero.php">

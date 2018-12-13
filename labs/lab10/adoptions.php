@@ -29,7 +29,7 @@ function displayAllPets(){
   <script>
   $(document).ready(function(){
         $('.petLink').click(function(){
-          //alert( $(this).attr("id") );
+          alert( $(this).attr("id") );
           
           $('#petInfoModal').modal("show");
           

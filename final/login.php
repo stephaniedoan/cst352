@@ -4,13 +4,13 @@
         <title>Login</title>
         <link href="https://fonts.googleapis.com/css?family=Acme|Work+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-       <!-- <link href="css/styles.css" rel="stylesheet" type="text/css" /> -->
+        <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
         
     
     </head>
     <style>
         body {
-             /**background-image: url("img/thunder.jpg");*/
+           background-image: url("img/thunder.jpg");
             text-align: center;
             
             background-size: cover;
@@ -29,8 +29,8 @@
                 <div class="navbar-nav">
                   <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                   <a class="nav-item nav-link" href="search.php">Search</a>
-                  <a class="nav-item nav-link" href="catalog.html">Catalog</a>
-                  <a class="nav-item nav-link active" href="login.html">Login</a>
+                  <a class="nav-item nav-link" href="catalog.php">Catalog</a>
+                  <a class="nav-item nav-link active" href="login.php">Login</a>
                 </div>
               </div>
             </nav>

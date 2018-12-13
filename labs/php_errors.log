@@ -22,3 +22,19 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst352/labs/lab10/adoptions.php(3): getConnection('pets')
 #2 {main}
   thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[10-Dec-2018 22:29:01 UTC] PHP Warning:  include(inc/heaper.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/pets/adoptions.php on line 24
+[10-Dec-2018 22:29:01 UTC] PHP Stack trace:
+[10-Dec-2018 22:29:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/pets/adoptions.php:0
+[10-Dec-2018 22:29:01 UTC] PHP Warning:  include(): Failed opening 'inc/heaper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/pets/adoptions.php on line 24
+[10-Dec-2018 22:29:01 UTC] PHP Stack trace:
+[10-Dec-2018 22:29:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/pets/adoptions.php:0
+[11-Dec-2018 19:22:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst352/labs/lab11/getUserInfo.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab11/getUserInfo.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab11/getUserInfo.php on line 13
+[11-Dec-2018 19:22:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst352/labs/lab11/getUserInfo.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab11/getUserInfo.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab11/getUserInfo.php on line 13
