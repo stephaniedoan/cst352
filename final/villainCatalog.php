@@ -1,20 +1,20 @@
 <?php
-include '../sqlConnection.php';
-$dbConn = getConnection("heroes");
-
-function displayAllVillains() {
-    global $dbConn;
+    include '../sqlConnection.php';
+    $dbConn = getConnection("heroes");
     
-    $sql = "SELECT name, img 
-            FROM `Villains` 
-            ORDER BY name";
-    $stmt = $dbConn->prepare($sql);
-    $stmt->execute();
-    $villains = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    
-    return $villains;
-    
-}
+    function displayAllVillains() {
+        global $dbConn;
+        
+        $sql = "SELECT *
+                FROM `Villains` 
+                ORDER BY name";
+        $stmt = $dbConn->prepare($sql);
+        $stmt->execute();
+        $villains = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        return $villains;
+        
+    }
 
 ?>
 
@@ -26,57 +26,66 @@ function displayAllVillains() {
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
-    <script>
-    $(document).ready( function(){
-        $(".villImg").click( function(){
-            // alert( $(this).attr("id") );
-        $('#villInfoModal').modal("show");
-        
-            $.ajax({
-
-            type: "GET",
-            url: "api/getVillInfo.php",
-            dataType: "json",
-            data: { "villain_id":$(this).attr("id") },
-            success: function(data,status) {
-                alert(data);
+        <script>
+            $(document).ready(function(){
+                    $('.villImg').click(function(){
+                        // alert( $(this).attr("id") );
+                    
+                        $('#villInfoModal').modal("show");
+                    
+                        $.ajax({
+                                
+                            type: "GET",
+                            url: "api/getVillInfo.php",
+                            dataType: "json",
+                            data: { "id": $(this).attr("id") },
+                            success: function(data,status) {
+                                // alert(data);
+                                $("#villName").html(data.name);
+                                $("#realName").html(data.fullName);
+                                $("#gender").html(data.gender);
+                                $("#species").html(data.race);
+                                $("#power").html(data.powers);
+                                $("#universe").html(data.universe);
+                                $("#villDescription").html(data.bio);
+                                $("#villImg").attr("src", data.img);
+                               
+                            },
+                            complete: function(data,status) { //optional, used for debugging purposes
+                            //   alert(status);
+                            }
+                            
+                        });//ajax
+                    }); 
+              });
             
-            },
-            complete: function(data,status) {
-                // alert(status);
+        </script>
+        
+        <style>
+            body {
+                background-image: url("img/thunder.jpg");
+                text-align: center;
+                background-size: cover;
             }
             
-            });//ajax
-                        
-        });
-    });
-</script>
-    
+            img {
+                max-width: 40%;
+                height: auto;
+            }    
+            
+            #catalog {
+                
+                display: flex;
+                flex-wrap: wrap;
+                
+            }
+            
+            #imgDiv {
+                width: 30%;
+                margin: 0 auto;
+            }
+        </style>
     </head>
-    <style>
-        body {
-            background-image: url("img/thunder.jpg");
-            text-align: center;
-            background-size: cover;
-        }
-        
-        img {
-            max-width: 40%;
-            height: auto;
-        }    
-        
-        #catalog {
-            
-            display: flex;
-            flex-wrap: wrap;
-            
-        }
-        
-        #imgDiv {
-            width: 30%;
-            margin: 0 auto;
-        }
-    </style>
     <body >
     <div id="container">
         <div class="container-b">
@@ -107,14 +116,8 @@ function displayAllVillains() {
                 
                 $villains = displayAllVillains();
                 
-                foreach($villains as $vill) {
-                    echo "<div id='imgDiv'>";
-                    echo "<a href='#' id='imgLink'>";
-                    echo "<img class='villImg' src='" . $vill["img"] . "' width='40%'>";
-                    echo "</a>";
-                    echo "<br>";
-                    echo $vill["name"];
-                    echo "</div>";
+                foreach($villains as $villain) {
+                    echo "<div class='villDiv' id='imgDiv'><a href='#' class='imgLink'><img id='" . $villain["villain_id"] . "' class='villImg' src='" . $villain["img"] . "' width='40%'></a><br>'".$villain["name"]."'</div>";
                 }
                 
                 ?>
@@ -133,12 +136,15 @@ function displayAllVillains() {
                   <div class="modal-body">
                     <div id="villInfo">
                         
-                     <span id="villImg"> </span> <br>
-                     <span id="villDescription" ></span> <br>
-                     <span id="villName">Name: </span> <br>
-                     <span id="gender">Gender: </span> <br>
-                     <span id="power">Power: </span> <br>
-                     <span id="villDescription">Biography: </span> <br>
+                     <img id="villImg" src="" alt="Character Image" width="150"><br>
+                     <div style="margin: 10px auto; background: whitesmoke; padding: 5px; border-radius: 8px;">
+                         <b>Identity: </b><span id="realName"> </span> <br>
+                         <b>Gender: </b><span id="gender"> </span> <br>
+                         <b>Species: </b><span id="species" ></span> <br>
+                         <b>Power: </b><span id="power"></span> <br>
+                         <b>Universe: </b><span id="universe"></span> <br>
+                         <b>Biography: </b><span id="villDescription"></span> <br>
+                     </div>
                         
                     </div>
                   </div>
@@ -161,7 +167,7 @@ function displayAllVillains() {
         </div>
     </div> 
 </div>    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     

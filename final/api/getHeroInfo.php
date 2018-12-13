@@ -1,23 +1,22 @@
 <?php
-include '../../sqlConnection.php';
-$dbConn = getConnection("heroes");
-
-function displayHero() {
-    global $dbConn;
+    include '../../sqlConnection.php';
+    $dbConn = getConnection("heroes");
     
-      $sql = "SELECT *
-            FROM Superheroes 
-            WHERE hero_id = :id";
-            
-    $namedParameters = array();
-    $namedParameters[":id"] = $_GET['hero_id'];
-    
-    $stmt = $dbConn->prepare($sql);
-    $stmt->execute($namedParameters);
-    $hero = $stmt->fetch(PDO::FETCH_ASSOC); 
-    //print_r($hero);
-    return $hero;
-}        
+    function displayHero() {
+        global $dbConn;
+        
+        $sql = "SELECT * FROM `Superheroes` WHERE hero_id = :id";
+                
+        $namedParameters = array();
+        $namedParameters[":id"] = $_GET['id'];
+        
+        $stmt = $dbConn->prepare($sql);
+        $stmt->execute($namedParameters);
+        // $stmt->execute();
+        $hero = $stmt->fetch(PDO::FETCH_ASSOC); 
+        // print_r($hero);
+        return $hero;
+    }        
     
     $hero = displayHero();
     

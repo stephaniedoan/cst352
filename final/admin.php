@@ -32,6 +32,7 @@ $heroes = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <head>
         <title>Admin Section</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
         <style>
             
             form {

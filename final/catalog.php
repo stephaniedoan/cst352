@@ -1,20 +1,20 @@
 <?php
-include '../sqlConnection.php';
-$dbConn = getConnection("heroes");
-
-function displayAllHeroes() {
-    global $dbConn;
+    include '../sqlConnection.php';
+    $dbConn = getConnection("heroes");
     
-    $sql = "SELECT * 
-            FROM `Superheroes` 
-            ORDER BY name";
-    $stmt = $dbConn->prepare($sql);
-    $stmt->execute();
-    $heroes = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    
-    return $heroes;
-    
-}
+    function displayAllHeroes() {
+        global $dbConn;
+        
+        $sql = "SELECT * 
+                FROM `Superheroes` 
+                ORDER BY name";
+        $stmt = $dbConn->prepare($sql);
+        $stmt->execute();
+        $heroes = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        return $heroes;
+        
+    }
 
 ?>
 
@@ -25,57 +25,65 @@ function displayAllHeroes() {
         <link href="https://fonts.googleapis.com/css?family=Acme|Work+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-         <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
-    <script>
-    $(document).ready(function(){
-        $('.heroImg').click(function(){
-        // alert( $(this).attr("id") );
-        //alert(data.bio);
-        //alert($(this).attr("hero_id"));
-        $('#heroInfoModal').modal("show");
+        <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
+        <script>
+            $(document).ready(function(){
+                    $('.heroImg').click(function(){
+                        // alert( $(this).attr("id") );
+                    
+                        $('#heroInfoModal').modal("show");
+                    
+                        $.ajax({
+                                
+                            type: "GET",
+                            url: "api/getHeroInfo.php",
+                            dataType: "json",
+                            data: { "id": $(this).attr("id") },
+                            success: function(data,status) {
+                                // alert(data);
+                                $("#heroModalLabel").html(data.name);
+                                $("#realName").html(data.fullName);
+                                $("#gender").html(data.gender);
+                                $("#species").html(data.race);
+                                $("#power").html(data.powers);
+                                $("#universe").html(data.universe);
+                                $("#heroDescription").html(data.bio);
+                                $("#heroImg").attr("src", data.img);
+                               
+                            },
+                            complete: function(data,status) { //optional, used for debugging purposes
+                            //   alert(status);
+                            }
+                            
+                        });//ajax
+                    }); 
+              });
+        </script>
         
-            $.ajax({
-                
-            type: "GET",
-            url: "api/getHeroInfo.php",
-            dataType: "json",
-            data: { "hero_id": $(this).attr("id") },
-            success: function(data,status) {
-                alert(data.id);
-               
-            },
-            complete: function(data,status) { //optional, used for debugging purposes
-               //alert(status);
+        <style>
+            body {
+                background-image: url("img/thunder.jpg");
+                text-align: center;
+                background-size: cover;
             }
             
-            });//ajax
-        }); 
-  });
-</script>
-    <style>
-        body {
-            background-image: url("img/thunder.jpg");
-            text-align: center;
-            background-size: cover;
-        }
-        
-        img {
-            max-width: 100%;
-            height: auto;
-        }    
-        
-        #catalog {
+            img {
+                max-width: 100%;
+                height: auto;
+            }    
             
-            display: flex;
-            flex-wrap: wrap;
+            #catalog {
+                
+                display: flex;
+                flex-wrap: wrap;
+                
+            }
             
-        }
-        
-        #imgDiv {
-            width: 30%;
-            margin: 0 auto;
-        }
-    </style>
+            #imgDiv {
+                width: 30%;
+                margin: 0 auto;
+            }
+        </style>
     </head>
     
     <body >
@@ -109,11 +117,7 @@ function displayAllHeroes() {
                 $heroes = displayAllHeroes();
                 
                 foreach($heroes as $hero) {
-                    echo "<div id='imgDiv'>";
-                    echo "<a href='#' id='imgLink'>";
-                    echo "<img class='heroImg' src='" . $hero["img"] . "' width='40%'>";
-                    echo "</a>";
-                    echo "<br>";
+                    echo "<div id='imgDiv'><a href='#' class='imgLink'><img id='" . $hero["hero_id"] . "' class='heroImg' src='" . $hero["img"] . "' width='40%'></a><br>";
                     echo $hero["name"];
                     echo "</div>";
                 }
@@ -135,12 +139,15 @@ function displayAllHeroes() {
                   <div class="modal-body">
                     <div id="heroInfo">
                  <!-- this is an html element -->
-                 <span id="heroImg"> </span> <br>
-                 <span id="heroDescription" ></span> <br>
-                 <span id="heroName">Name: </span> <br>
-                 <span id="gender">Gender: </span> <br>
-                 <span id="power">Power: </span> <br>
-                 <span id="heroDescription">Biography: </span> <br>
+                 <img id="heroImg" src="" alt="Character Image" width="150"><br>
+                 <div style="margin: 10px auto; background: whitesmoke; padding: 5px; border-radius: 8px;">
+                     <b>Identity: </b><span id="realName"> </span> <br>
+                     <b>Gender: </b><span id="gender"> </span> <br>
+                     <b>Species: </b><span id="species" ></span> <br>
+                     <b>Power: </b><span id="power"></span> <br>
+                     <b>Universe: </b><span id="universe"></span> <br>
+                     <b>Biography: </b><span id="heroDescription"></span> <br>
+                 </div>
                   
                  
               </div>

@@ -15,7 +15,7 @@ if (isset($_GET['addHeroForm'])) {  //checks whether the form has been submitted
     
   $name = $_GET['name'];  
   $fullName = $_GET['fullName'];   
-//   $gender = $_GET['gender'];
+  $gender = $_GET['gender'];
   $powers = $_GET['powers'];
   $race = $_GET['race'];
   $universe = $_GET['universe'];
@@ -29,7 +29,7 @@ if (isset($_GET['addHeroForm'])) {  //checks whether the form has been submitted
   $namedParameters = array();
   $namedParameters[':name'] = $name;
   $namedParameters[':fn'] = $fullName;
-//   $namedParameters[':gender'] = $gender;
+  $namedParameters[':gender'] = $gender;
   $namedParameters[':powers'] = $powers;
   $namedParameters[':race'] = $race;
   $namedParameters[':universe'] = $universe;
@@ -50,6 +50,7 @@ if (isset($_GET['addHeroForm'])) {  //checks whether the form has been submitted
 <html>
     <head>
         <title> Admin: Add New Hero </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
     </head>
     <body>
 
@@ -59,11 +60,11 @@ if (isset($_GET['addHeroForm'])) {  //checks whether the form has been submitted
             
             Hero Name: <input type="text" name="name"/> <br />
             Full Name: <input type="text" name="fullName"/> <br />
-            <!--Gender: -->
-            <!--<input type="radio" name="gender" value="M" id="genderMale"/>-->
-            <!--    <label for="genderMale">Male</label>-->
-            <!--<input type="radio" name="gender" value="F" id="genderFemale"/> -->
-            <!--    <label for="genderFemale">Female</label><br>-->
+            Gender: 
+            <input type="radio" name="gender" value="M" id="genderMale"/>
+                <label for="genderMale">Male</label>
+            <input type="radio" name="gender" value="F" id="genderFemale"/> 
+                <label for="genderFemale">Female</label><br>
             
             Powers: <input type="text" name="powers"/> <br />
             Race: <input type="text" name="race"/> <br>
