@@ -28,21 +28,26 @@
                       //alert("Wrong")
                       $('#feedback2').html("Wrong");
                   }
+                  
                   //alert(score);
                   $("#totalScore").html("The total Score is: "+score);
                   
                    $.ajax({
             
                     type: "GET",
-                    url: "getUserInfo.php",
+                    url: "updateScore.php",
                     dataType: "json",
-                    data: { "email":$("#emailAddress").val(), 
-                            "score": score},
+                    data: { "email":$("#emailAddress").val(), "score": score},
                     success: function(data,status) {
                        //alert(data.score + " " + data.attempts);
-                       $("#prevScore").html("Your Previous Score was: " + data.score);
-                       $("#totalAttempts").html("total attempts: " + (parseInt(data.attempts) + 1));
-                    
+                    if(!data){
+                            $("#prevScore").html("No previous score found.");
+                            $("#totalAttempts").html("total attempts: 1");
+                       
+                    } else{
+                            $("#prevScore").html("Your Previous Score was: " + data.score);
+                            $("#totalAttempts").html("total attempts: " + (parseInt(data.attempts) + 1));  
+                       }
                     },
                     complete: function(data,status) { //optional, used for debugging purposes
                        //alert(status);
@@ -54,12 +59,18 @@
             
            
         </script>
-        <title>quiz</title>
+        <title>Quiz</title>
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <style>
+            body{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         
    <form>        
-    <h3>Enter your email
+    <h3>Enter your email:
     <input type="text" id="emailAddress" name="email"/></br></h3>
     What is 2+2? 
     <select id="q1"> 

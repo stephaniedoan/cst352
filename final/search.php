@@ -74,9 +74,9 @@
         $stmt = $dbConn->prepare($sql);
         $stmt->execute($namedParameters);
         $heroes = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        foreach ($heroes as $heroes) {
-            echo '<div class="my_class">'."Name: ". "<a href='#' class='heroLink' id='". $heroes["hero_id"]. "'>" .$heroes["name"]. "</a><br>".'</div>';
-            echo '<div class="my_class">'."Gender: " .$heroes["gender"]. "<br><br>" .'</div>';
+        foreach ($heroes as $hero) {
+            echo '<div class="my_class">'."Name: ". "<a href='#' class='heroLink' id='". $hero["hero_id"]. "'>" .$hero["name"]. "</a><br>".'</div>';
+            echo '<div class="my_class">'."Gender: " .$hero["gender"]. "<br><br>" .'</div>';
         }//foreach
         }//searchForm
     }//displayHeroes()
@@ -192,7 +192,7 @@
     <script>
      $(document).ready(function(){
         $('.heroLink').click(function(){
-        // alert( $(this).attr("id") );
+        alert( $(this).attr("id") );
         //alert(data.bio);
         //alert($(this).attr("hero_id"));
         $('#heroInfoModal').modal("show");
